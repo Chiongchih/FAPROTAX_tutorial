@@ -1,7 +1,14 @@
 ###Tutorial starts here###
 ###This tutorial is written by Changzhi Wang, starting at July 18 2022, who is currently a PhD student in Hong Lab in KAUST, Jeddah, Saudi Arabia###
 
+The right conda environment is python 3.7
 
+The right input format is:
+#OTU ID #Sample A-Z #taxonomy
+And in .txt format
+
+The command line is:
+./collapse_table.py -i filtered_result_tiannyu.txt -o Genus_level_CT_eukaryota_removed_functional.txt -g FAPROTAX.txt -d "taxonomy" -c "#" -v
 
 
 
